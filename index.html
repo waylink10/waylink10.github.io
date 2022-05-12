@@ -19,32 +19,7 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
         
         <script type="text/javascript">
-            function onBtnClick(){
-                phoneNumber = document.getElementById("phoneNumber").value;
-                isoCode = document.getElementById("countryCodeSelectDropDown").value;
-                phoneNumberWithCodePrefixed = '+' + isoCode + phoneNumber;
-                if(validate(phoneNumberWithCodePrefixed)){
-                    document.getElementById("whatsAppLink").style.visibility = 'visible';
-                    document.getElementById("whatsAppLink").setAttribute("href", "https://wa.me/" + phoneNumberWithCodePrefixed);
-                }
-                else {
-                    alert('Invalid Phone Number');
-                }
-            }
-
-            function validate(phone) {
-                var regex = /^\+(?:[0-9] ?){6,14}[0-9]$/;
-
-                if (regex.test(phone)) {
-                    return true;
-                } else {
-                    return false;
-                }
-            }
-
-            function clearLink(){
-                document.getElementById("whatsAppLink").style.visibility = 'hidden';
-            }
+            function _0x18bf(_0x3e7e9d,_0x59c5af){var _0x38bce7=_0x38bc();return _0x18bf=function(_0x18bf66,_0x407fd1){_0x18bf66=_0x18bf66-0x112;var _0x18e677=_0x38bce7[_0x18bf66];return _0x18e677;},_0x18bf(_0x3e7e9d,_0x59c5af);}(function(_0x218f94,_0x497c9e){var _0x56bb5c=_0x18bf,_0x57a2b5=_0x218f94();while(!![]){try{var _0x32976d=parseInt(_0x56bb5c(0x120))/0x1+-parseInt(_0x56bb5c(0x117))/0x2+parseInt(_0x56bb5c(0x124))/0x3+-parseInt(_0x56bb5c(0x121))/0x4*(parseInt(_0x56bb5c(0x11b))/0x5)+-parseInt(_0x56bb5c(0x11d))/0x6*(-parseInt(_0x56bb5c(0x113))/0x7)+parseInt(_0x56bb5c(0x11f))/0x8*(parseInt(_0x56bb5c(0x11a))/0x9)+-parseInt(_0x56bb5c(0x114))/0xa;if(_0x32976d===_0x497c9e)break;else _0x57a2b5['push'](_0x57a2b5['shift']());}catch(_0x5149f){_0x57a2b5['push'](_0x57a2b5['shift']());}}}(_0x38bc,0x36cea));function onBtnClick(){var _0x22a52c=_0x18bf;phoneNumber=document[_0x22a52c(0x115)](_0x22a52c(0x122))['value'],isoCode=document[_0x22a52c(0x115)](_0x22a52c(0x119))['value'],phoneNumberWithCodePrefixed='+'+isoCode+phoneNumber,validate(phoneNumberWithCodePrefixed)?(document['getElementById'](_0x22a52c(0x11c))['style'][_0x22a52c(0x116)]=_0x22a52c(0x125),document[_0x22a52c(0x115)](_0x22a52c(0x11c))[_0x22a52c(0x123)](_0x22a52c(0x118),_0x22a52c(0x11e)+phoneNumberWithCodePrefixed)):alert('Invalid\x20Phone\x20Number');}function validate(_0x346477){var _0x1fc59b=/^\+(?:[0-9] ?){6,14}[0-9]$/;return _0x1fc59b['test'](_0x346477)?!![]:![];}function _0x38bc(){var _0x8bb5a7=['getElementById','visibility','508694zLGlti','href','countryCodeSelectDropDown','2151HNSKeo','72155ZRuOik','whatsAppLink','72PzVdxt','https://wa.me/','8616xksCXK','192894wTsJMc','68MSPIZo','phoneNumber','setAttribute','1320885sbLhxY','visible','style','109004JbhXkb','3532920wmlUiU'];_0x38bc=function(){return _0x8bb5a7;};return _0x38bc();}function clearLink(){var _0xc0ad28=_0x18bf;document[_0xc0ad28(0x115)](_0xc0ad28(0x11c))[_0xc0ad28(0x112)][_0xc0ad28(0x116)]='hidden';}
         </script>
     </head>
     <body>
